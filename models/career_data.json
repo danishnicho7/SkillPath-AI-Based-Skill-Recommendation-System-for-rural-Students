@@ -1,0 +1,382 @@
+[
+  {
+    "interest": "Civil Services",
+    "education": "Bachelor's in Political Science, Law, or Public Administration",
+    "skills": ["Leadership", "Analytical Thinking", "Current Affairs Knowledge", "Communication"],
+    "location": "Government offices, administrative services, public sector organizations",
+    "learning_pref": "Online courses, coaching classes, self-study",
+    "career": "Civil Services Officer",
+    "description": "Works in government administration to implement policies and public services.",
+    "roadmap": [
+      "High School: Focus on History, Political Science, and English",
+      "Stay updated on current affairs and government systems",
+      "Take introductory courses on public administration or governance",
+      "Participate in debates and essay competitions",
+      "Pursue Bachelor's in Political Science, Law, or Public Administration",
+      "Prepare for civil service exams and internships in government bodies"
+    ],
+    "books_resources": [
+      "India's Constitution by Granville Austin",
+      "Introduction to Public Administration by Shafritz & Hyde",
+      "Online courses on Civil Services preparation"
+    ],
+    "alternative_careers": ["Policy Analyst", "Administrative Officer", "Diplomat"],
+    "exam_requirement": "UPSC Civil Services Exam (Prelims, Mains, Interview)",
+    "average_salary": "₹7–15 LPA",
+    "growth_opportunities": ["District Collector", "Secretary", "Cabinet Secretary"],
+    "tools_resources": ["PIB", "Yojana magazine", "Rajya Sabha TV", "Mock Test Series"]
+  },
+  {
+    "interest": "Software Engineering",
+    "education": "Bachelor's in Computer Science or related field",
+    "skills": ["Programming", "Problem Solving", "Algorithms", "Teamwork"],
+    "location": "IT companies, startups, tech firms",
+    "learning_pref": "Online courses, college degree, coding bootcamps",
+    "career": "Software Engineer",
+    "description": "Designs, develops, and maintains software applications.",
+    "roadmap": [
+      "High School: Focus on Math, Computer Science, and English",
+      "Learn basic programming languages like Python or Java",
+      "Take part in coding competitions and hackathons",
+      "Pursue Bachelor's in Computer Science or related field",
+      "Internships in software development",
+      "Build portfolio projects and apply for software roles"
+    ],
+    "books_resources": [
+      "Clean Code by Robert C. Martin",
+      "Introduction to Algorithms by Cormen et al.",
+      "Online coding platforms like LeetCode and HackerRank"
+    ],
+    "alternative_careers": ["Data Scientist", "Web Developer", "DevOps Engineer"],
+    "exam_requirement": "No mandatory exam, GATE optional (for higher studies/PSU jobs)",
+    "average_salary": "₹6–12 LPA",
+    "growth_opportunities": ["Senior Engineer", "Tech Lead", "Engineering Manager", "CTO"],
+    "tools_resources": ["GitHub", "VS Code", "Docker", "AWS/Azure/GCP"]
+  },
+  {
+    "interest": "Medicine",
+    "education": "MBBS, MD, or specialized medical degrees",
+    "skills": ["Attention to detail", "Empathy", "Problem Solving", "Time Management"],
+    "location": "Hospitals, clinics, research institutes",
+    "learning_pref": "Medical college, internships, workshops",
+    "career": "Doctor",
+    "description": "Diagnoses and treats patients, provides medical care and advice.",
+    "roadmap": [
+      "High School: Focus on Biology, Chemistry, and Physics",
+      "Prepare for NEET exam",
+      "Enroll in MBBS course",
+      "Complete internships and residency",
+      "Specialize in chosen field (MD/MS/Diploma)"
+    ],
+    "books_resources": [
+      "Gray's Anatomy",
+      "Harrison's Principles of Internal Medicine",
+      "Medical journals and online resources"
+    ],
+    "alternative_careers": ["Medical Researcher", "Public Health Officer", "Clinical Consultant"],
+    "exam_requirement": "NEET-UG, NEET-PG for specialization",
+    "average_salary": "₹10–25 LPA",
+    "growth_opportunities": ["Consultant Doctor", "HOD", "Medical Director"],
+    "tools_resources": ["PubMed", "Clinical trial databases", "Diagnostic software"]
+  },
+  {
+    "interest": "Teaching",
+    "education": "B.Ed, M.Ed, PhD (optional)",
+    "skills": ["Communication", "Patience", "Subject Knowledge", "Creativity"],
+    "location": "Schools, colleges, coaching centers",
+    "learning_pref": "Teacher training programs, workshops",
+    "career": "School Teacher",
+    "description": "Educates students in schools or coaching centers.",
+    "roadmap": [
+      "High School: Focus on relevant subjects",
+      "Pursue Bachelor's degree in chosen subject",
+      "Complete B.Ed or teacher training",
+      "Internships/teaching practice",
+      "Apply for teaching positions"
+    ],
+    "books_resources": ["Pedagogy Books", "Subject textbooks", "Teaching workshops online"],
+    "alternative_careers": ["College Lecturer", "Educational Consultant", "Online Educator"],
+    "exam_requirement": "NET/SET for college-level teaching",
+    "average_salary": "₹3–7 LPA (school), ₹10–15 LPA (professor)",
+    "growth_opportunities": ["HOD", "Principal", "Academic Researcher"],
+    "tools_resources": ["Google Classroom", "Smart Classroom Tools", "Khan Academy pedagogy"]
+  },
+  {
+    "interest": "Entrepreneurship",
+    "education": "Bachelor's in Business, Economics, or relevant field",
+    "skills": ["Leadership", "Risk Management", "Marketing", "Financial Planning"],
+    "location": "Startup ecosystems, own business",
+    "learning_pref": "Workshops, mentorship, online business courses",
+    "career": "Entrepreneur",
+    "description": "Creates and manages businesses, takes risks for growth.",
+    "roadmap": [
+      "High School: Focus on Economics and Mathematics",
+      "Learn basics of business and finance",
+      "Pursue Bachelor's in Business or Economics",
+      "Participate in entrepreneurship workshops and competitions",
+      "Start own business or join startup incubators"
+    ],
+    "books_resources": [
+      "Lean Startup by Eric Ries",
+      "Zero to One by Peter Thiel",
+      "Online courses on entrepreneurship"
+    ],
+    "alternative_careers": ["Startup Founder", "Business Consultant", "Investor"],
+    "exam_requirement": "None mandatory",
+    "average_salary": "Variable (₹0 to multi-crore depending on success)",
+    "growth_opportunities": ["Scale Founder", "Angel Investor", "Venture Capitalist"],
+    "tools_resources": ["Startup Incubators", "Accelerators", "Pitch decks"]
+  },
+  {
+    "interest": "Law",
+    "education": "LLB, LLM",
+    "skills": ["Analytical Thinking", "Communication", "Research", "Negotiation"],
+    "location": "Law firms, courts, corporate legal departments",
+    "learning_pref": "Law school, internships, workshops",
+    "career": "Lawyer",
+    "description": "Represents clients, provides legal advice, and prepares legal documents.",
+    "roadmap": [
+      "High School: Focus on Political Science, History, and English",
+      "Pursue LLB",
+      "Internships in law firms or legal departments",
+      "Prepare for bar exams",
+      "Optional: LLM specialization"
+    ],
+    "books_resources": [
+      "IPC and Legal Books",
+      "Case Law Compendiums",
+      "Online legal courses"
+    ],
+    "alternative_careers": ["Corporate Lawyer", "Legal Advisor", "Public Prosecutor"],
+    "exam_requirement": "CLAT (law schools), AIBE (bar license)",
+    "average_salary": "₹5–12 LPA (₹15–25 LPA in top firms)",
+    "growth_opportunities": ["Senior Advocate", "Judge", "Law Firm Partner"],
+    "tools_resources": ["Manupatra", "SCC Online", "Bar Council workshops"]
+  },
+  {
+    "interest": "Banking & Finance",
+    "education": "B.Com, MBA Finance, CA, CFA",
+    "skills": ["Analytical Thinking", "Accounting", "Risk Management", "Communication"],
+    "location": "Banks, financial institutions, corporate offices",
+    "learning_pref": "Banking courses, internships, online courses",
+    "career": "Bank Manager",
+    "description": "Manages bank operations, customer relations, and financial services.",
+    "roadmap": [
+      "High School: Focus on Mathematics and Economics",
+      "Pursue B.Com or related degree",
+      "Obtain finance certifications",
+      "Internships in banks or financial institutions",
+      "Gain experience and promotions"
+    ],
+    "books_resources": ["Banking and Finance Textbooks", "Online finance courses", "Investment books"],
+    "alternative_careers": ["Financial Analyst", "Investment Banker", "Auditor"],
+    "exam_requirement": "IBPS/SBI PO, RBI Grade B, CA/CFA exams",
+    "average_salary": "₹5–10 LPA, ₹15–30 LPA (finance specializations)",
+    "growth_opportunities": ["Branch Manager", "Zonal Head", "Executive Director"],
+    "tools_resources": ["Bloomberg Terminal", "MS Excel/Power BI", "Investment portals"]
+  },
+  {
+    "interest": "Defence Services",
+    "education": "Graduation in any stream, NDA, or defense academies",
+    "skills": ["Physical Fitness", "Discipline", "Leadership", "Strategic Thinking"],
+    "location": "Army, Navy, Air Force",
+    "learning_pref": "Military academies, physical training",
+    "career": "Army Officer",
+    "description": "Defends the nation, leads troops, and strategizes military operations.",
+    "roadmap": [
+      "High School: Focus on Physical Fitness and academics",
+      "Appear for NDA/CDS exams",
+      "Join military academy",
+      "Complete training and commission",
+      "Gain experience through postings"
+    ],
+    "books_resources": ["Indian Military History", "Defense Strategy", "Training manuals"],
+    "alternative_careers": ["Navy Officer", "Air Force Pilot", "Defense Analyst"],
+    "exam_requirement": "NDA/CDS/SSB selection",
+    "average_salary": "₹8–12 LPA plus perks",
+    "growth_opportunities": ["Lieutenant", "Captain", "Colonel", "General"],
+    "tools_resources": ["Military training programs", "Defense journals"]
+  },
+  {
+    "interest": "Civil Engineering",
+    "education": "B.Tech/B.E in Civil Engineering",
+    "skills": ["Design", "Structural Analysis", "Project Management", "Teamwork"],
+    "location": "Construction companies, government infrastructure projects",
+    "learning_pref": "Engineering college, internships, workshops",
+    "career": "Civil Engineer",
+    "description": "Designs and supervises construction projects and infrastructure development.",
+    "roadmap": [
+      "High School: Focus on Mathematics, Physics, and Chemistry",
+      "Pursue B.Tech/B.E in Civil Engineering",
+      "Internships in construction projects",
+      "Work on real-world projects",
+      "Specialty certifications"
+    ],
+    "books_resources": ["Engineering Fundamentals by Moaveni", "Structural Engineering Books"],
+    "alternative_careers": ["Structural Engineer", "Project Manager", "Urban Planner"],
+    "exam_requirement": "GATE (for M.Tech/PSU)",
+    "average_salary": "₹4–8 LPA, ₹12–15 LPA (project managers)",
+    "growth_opportunities": ["Senior Engineer", "Project Director", "Consultant"],
+    "tools_resources": ["AutoCAD", "STAAD Pro", "Primavera", "Revit"]
+  },
+  {
+    "interest": "Creative Arts",
+    "education": "Bachelor's in Fine Arts, Graphic Design, or Animation",
+    "skills": ["Creativity", "Visual Design", "Communication", "Software Skills"],
+    "location": "Media houses, design studios, advertising agencies",
+    "learning_pref": "Workshops, online tutorials, art colleges",
+    "career": "Graphic Designer",
+    "description": "Creates visual content for digital and print media.",
+    "roadmap": [
+      "High School: Focus on Art, Design, and Computer Skills",
+      "Learn Adobe Illustrator and Photoshop",
+      "Pursue Bachelor's in Fine Arts or Graphic Design",
+      "Internships in design agencies",
+      "Build portfolio and freelance"
+    ],
+    "books_resources": [
+      "Design Basics by David A. Lauer",
+      "Creative Workshop books",
+      "Online design courses"
+    ],
+    "alternative_careers": ["Animator", "UI/UX Designer", "Illustrator"],
+    "exam_requirement": "Design school entrance exams (NID, NIFT, private colleges)",
+    "average_salary": "₹3–8 LPA, ₹15+ LPA (senior designers)",
+    "growth_opportunities": ["Creative Director", "Agency Head"],
+    "tools_resources": ["Adobe Suite", "Figma", "Canva", "Behance"]
+  },
+  
+  {
+    "interest": "Aviation",
+    "education": "Commercial Pilot License (CPL)",
+    "skills": ["Navigation", "Decision Making", "Communication", "Teamwork"],
+    "location": "Airlines, airports, private carriers",
+    "learning_pref": "Flight schools, simulation training, exams",
+    "career": "Pilot",
+    "description": "Operates aircraft transporting passengers or cargo across regions and countries.",
+    "roadmap": [
+      "High School: Focus on Physics and Mathematics",
+      "Join a certified flying school",
+      "Clear DGCA exams and acquire a Student Pilot License",
+      "Log required flying hours and complete CPL training",
+      "Get placed in commercial/private airlines"
+    ],
+    "books_resources": [
+      "Flight Theory for Pilots by Charles E. Dole",
+      "Pilot’s Handbook of Aeronautical Knowledge",
+      "Air Navigation Guides"
+    ],
+    "alternative_careers": ["Flight Instructor", "Air Traffic Controller", "Aviation Manager"],
+    "exam_requirement": "DGCA exams for CPL, Airline selection tests",
+    "average_salary": "₹10–20 LPA",
+    "growth_opportunities": ["Captain", "Chief Pilot", "Fleet Training Manager"],
+    "tools_resources": ["Flight Simulators", "Jeppesen Navigation Charts", "ATC Communication Systems"]
+  },
+  {
+    "interest": "Journalism",
+    "education": "Bachelor's in Journalism, Mass Communication",
+    "skills": ["Writing", "Storytelling", "Research", "Critical Thinking"],
+    "location": "Media houses, news channels, online publications",
+    "learning_pref": "University courses, internships, newsroom training",
+    "career": "Journalist",
+    "description": "Reports and writes news stories, investigates issues, and informs the public.",
+    "roadmap": [
+      "High School: Focus on English, Social Studies, Current Affairs",
+      "Pursue a Bachelor's in Journalism or Mass Comm.",
+      "Intern in newspapers, TV, or online media",
+      "Build a portfolio of reports",
+      "Start working in news agencies or freelancing"
+    ],
+    "books_resources": [
+      "The Elements of Journalism by Bill Kovach",
+      "On Writing Well by William Zinsser",
+      "Media Ethics Guides"
+    ],
+    "alternative_careers": ["Editor", "Content Strategist", "Media Analyst"],
+    "exam_requirement": "University entrance tests or direct admission",
+    "average_salary": "₹3–8 LPA",
+    "growth_opportunities": ["Senior Reporter", "Editor-in-Chief", "Media Director"],
+    "tools_resources": ["Newsroom CMS", "AP Stylebook", "Interviewing Tools"]
+  },
+  {
+    "interest": "Artificial Intelligence",
+    "education": "B.Tech/Masters in CS, AI/ML specialization",
+    "skills": ["Programming", "Machine Learning", "Mathematics", "Data Modeling"],
+    "location": "Tech companies, research labs, startups",
+    "learning_pref": "Online AI courses, coding bootcamps, projects",
+    "career": "AI Engineer",
+    "description": "Designs and builds AI systems, machine learning models, and intelligent applications.",
+    "roadmap": [
+      "High School: Focus on Mathematics, Computer Science",
+      "Bachelor’s in Computer Science or AI",
+      "Learn Python, TensorFlow, PyTorch",
+      "Do internships in AI projects",
+      "Build ML/AI models and deploy",
+      "Work in AI-driven startups or research"
+    ],
+    "books_resources": [
+      "Deep Learning by Ian Goodfellow",
+      "Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow",
+      "AI Research Journals"
+    ],
+    "alternative_careers": ["Data Scientist", "ML Engineer", "AI Researcher"],
+    "exam_requirement": "GATE (for PG/research), company coding tests",
+    "average_salary": "₹12–25 LPA",
+    "growth_opportunities": ["Lead AI Scientist", "AI Architect", "CTO in AI firms"],
+    "tools_resources": ["TensorFlow", "PyTorch", "Google Colab", "Kaggle"]
+  },
+  {
+    "interest": "Hospitality & Tourism",
+    "education": "Bachelor's in Hotel Management, Tourism Studies",
+    "skills": ["Customer Service", "Communication", "Event Planning", "Management"],
+    "location": "Hotels, resorts, travel agencies, airlines",
+    "learning_pref": "Hospitality colleges, internships, workshops",
+    "career": "Hotel Manager",
+    "description": "Oversees hotel operations, manages staff, ensures guest satisfaction.",
+    "roadmap": [
+      "High School: Focus on English, Business Studies",
+      "Bachelor’s in Hotel/ Hospitality Management",
+      "Internships in hotels or resorts",
+      "Gain experience in front office, F&B, operations",
+      "Promote to management roles"
+    ],
+    "books_resources": [
+      "Introduction to Hospitality by John R. Walker",
+      "Hotel Management & Operations by Denney G. Rutherford",
+      "Tourism Management Guides"
+    ],
+    "alternative_careers": ["Travel Consultant", "Event Manager", "Resort Director"],
+    "exam_requirement": "NCHM JEE (for top Indian institutes)",
+    "average_salary": "₹5–12 LPA",
+    "growth_opportunities": ["Operations Head", "General Manager", "Corporate Director"],
+    "tools_resources": ["Hotel PMS software", "Reservation systems", "CRM tools"]
+  },
+  {
+    "interest": "Space Science",
+    "education": "B.Tech/Masters/PhD in Aerospace Engineering, Astronomy",
+    "skills": ["Research", "Physics", "Mathematics", "Problem Solving"],
+    "location": "Space agencies, research institutions, observatories",
+    "learning_pref": "Research programs, internships, higher studies",
+    "career": "Astrophysicist",
+    "description": "Studies celestial phenomena, conducts astronomical research, develops theories of the universe.",
+    "roadmap": [
+      "High School: Focus on Math, Physics",
+      "Bachelor’s in Physics/Aerospace",
+      "Masters/PhD in Astrophysics",
+      "Intern/Research at ISRO/NASA/Observatories",
+      "Publish scientific papers"
+    ],
+    "books_resources": [
+      "Cosmos by Carl Sagan",
+      "Astrophysics for People in a Hurry by Neil deGrasse Tyson",
+      "NASA/ISRO resources"
+    ],
+    "alternative_careers": ["Astronomer", "Research Scientist", "Physics Professor"],
+    "exam_requirement": "GATE, CSIR-NET, ISRO/NASA entrance",
+    "average_salary": "₹8–15 LPA",
+    "growth_opportunities": ["Principal Scientist", "Research Director", "Professor"],
+    "tools_resources": ["Telescope Data Systems", "MATLAB", "Python (Astro libraries)"]
+  }
+]
+
+
