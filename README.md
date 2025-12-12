@@ -1,12 +1,12 @@
 # SkillPath – AI Based Skill Recommendation System for Rural Students
 
 ## Project Description
-SkillPath is an AI-based skill recommendation system designed to help rural students identify relevant skills and learning pathways based on their interests and career goals using machine learning techniques.
+SkillPath is an AI-based skill recommendation system designed to help rural students identify relevant skills and learning pathways using machine learning techniques.
 
 ## Objectives
-- Provide personalized skill recommendations
+- Personalized skill recommendations
 - Support inclusive education for rural students
-- Reduce the skill gap using AI-driven guidance
+- Reduce skill gap using AI
 
 ## Technology Stack
 - Python
