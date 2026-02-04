@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ career.career }} - {{ section|capitalize }}</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --bg-deep: #050508;
+            --bg-card: #0f0f1a;
+            --primary: #c084fc;
+            --primary-glow: rgba(192, 132, 252, 0.15);
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --border: #1e1e2e;
+        }
+
+        * {
+            box-sizing: border-box;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            background-image: 
+                radial-gradient(circle at 20% 30%, var(--primary-glow), transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(168, 85, 247, 0.1), transparent 40%);
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            padding: 20px;
+        }
+
+        /* ===== CONTAINER ===== */
+        .page-wrapper {
+            width: 100%;
+            max-width: 850px;
+            perspective: 1000px;
+        }
+
+        /* ===== BACK LINK ===== */
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 25px;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            opacity: 0;
+            animation: fadeInRight 0.6s ease forwards 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--primary);
+            transform: translateX(-5px);
+        }
+
+        /* ===== CARD ===== */
+        .detail-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 28px;
+            padding: 60px 50px;
+            box-shadow: 0 40px 100px rgba(0, 0, 0, 0.8);
+            position: relative;
+            overflow: hidden;
+            transform-style: preserve-3d;
+            animation: cardEntrance 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+        }
+
+        .detail-card::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+        }
+
+        /* ===== TITLE ===== */
+        .detail-card h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin: 0 0 10px 0;
+            letter-spacing: -0.04em;
+            background: linear-gradient(to bottom, #fff, #a1a1aa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: slideDown 0.6s ease forwards 0.3s;
+            opacity: 0;
+        }
+
+        .detail-card h2 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.3em;
+            margin-bottom: 45px;
+            animation: slideDown 0.6s ease forwards 0.4s;
+            opacity: 0;
+        }
+
+        /* ===== CONTENT ===== */
+        .content {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #d1d5db;
+            text-align: left;
+            animation: fadeIn 1s ease forwards 0.6s;
+            opacity: 0;
+        }
+
+        /* ===== LISTS ===== */
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content li {
+            margin-bottom: 18px;
+            padding: 15px 20px;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            border: 1px solid transparent;
+            position: relative;
+            transform: translateX(20px);
+            opacity: 0;
+            animation: slideInList 0.5s ease forwards;
+        }
+
+        .content li:hover {
+            border-color: var(--border);
+            background: rgba(255, 255, 255, 0.04);
+            transform: scale(1.02) translateX(5px);
+        }
+
+        /* Staggered List Animation */
+        .content li:nth-child(1) { animation-delay: 0.7s; }
+        .content li:nth-child(2) { animation-delay: 0.8s; }
+        .content li:nth-child(3) { animation-delay: 0.9s; }
+        .content li:nth-child(4) { animation-delay: 1.0s; }
+
+        /* ===== PILLS ===== */
+        .pill-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .pill {
+            padding: 10px 22px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #fff;
+            border: 1px solid var(--border);
+            background: var(--input-bg);
+            cursor: default;
+        }
+
+        .pill:hover {
+            background: #fff;
+            color: #000;
+            transform: translateY(-5px) rotate(2deg);
+            box-shadow: 0 10px 20px rgba(255,255,255,0.1);
+        }
+
+        /* ===== INFO BOX ===== */
+        .info-box {
+            margin-top: 30px;
+            padding: 25px;
+            background: rgba(192, 132, 252, 0.05);
+            border-radius: 16px;
+            border-left: 4px solid var(--primary);
+        }
+
+        /* ===== KEYFRAMES ===== */
+        @keyframes cardEntrance {
+            from { opacity: 0; transform: rotateX(-10deg) translateY(50px); }
+            to { opacity: 1; transform: rotateX(0) translateY(0); }
+        }
+
+        @keyframes fadeInRight {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideInList {
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        @media (max-width: 600px) {
+            .detail-card { padding: 40px 25px; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <a class="back-link" href="javascript:history.back()">← Back to Overview</a>
+
+    <div class="detail-card">
+        <h1>{{ career.career }}</h1>
+        <h2>{{ section }}</h2>
+
+        <div class="content">
+            {% if section == "interest" %}
+                <p>{{ career.interest }}</p>
+
+            {% elif section == "education" %}
+                <p>{{ career.education }}</p>
+
+            {% elif section == "skills" %}
+                <div class="pill-grid">
+                    {% for s in career.skills %}
+                        <span class="pill">{{ s }}</span>
+                    {% endfor %}
+                </div>
+
+            {% elif section == "description" %}
+                <p>{{ career.description }}</p>
+                <div class="info-box">
+                    <p><strong>Certification:</strong> {{ career.exam_requirement }}</p>
+                    <p><strong>Estimated Salary:</strong> {{ career.average_salary }}</p>
+                </div>
+
+            {% elif section == "roadmap" %}
+                <ul>
+                    {% for step in career.roadmap %}
+                        <li>{{ step }}</li>
+                    {% endfor %}
+                </ul>
+
+            {% elif section == "books" %}
+                <ul>
+                    {% for book in career.books_resources %}
+                        <li>{{ book }}</li>
+                    {% endfor %}
+                </ul>
+
+            {% elif section == "tools" %}
+                <div class="pill-grid">
+                    {% for tool in career.tools_resources %}
+                        <span class="pill">{{ tool }}</span>
+                    {% endfor %}
+                </div>
+
+            {% elif section == "alternatives" %}
+                <div class="pill-grid">
+                    {% for alt in career.alternative_careers %}
+                        <span class="pill">{{ alt }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
