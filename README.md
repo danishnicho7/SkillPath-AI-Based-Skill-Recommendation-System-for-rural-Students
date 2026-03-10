@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SkillPath – AI Based Skill Recommendation System for Rural Students
 
-## Getting Started
+## 📌 Project Overview
 
-First, run the development server:
+**SkillPath** is an AI-powered web application designed to help **rural students discover suitable career paths and skills** based on their interests and abilities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Many students in rural areas lack proper career guidance. This system analyzes a student's **interests, strengths, and preferences** and recommends **career paths, required skills, and learning roadmaps**.
+
+The goal of this project is to make **career guidance accessible, personalized, and technology-driven**.
+
+---
+
+## 🎯 Problem Statement
+
+Students in rural regions often face:
+
+* Lack of career awareness
+* Limited access to professional guidance
+* Difficulty choosing the right skill path
+* Confusion about job opportunities
+
+**SkillPath solves this problem by using AI to guide students toward the right career direction.**
+
+---
+
+## 🚀 Features
+
+* AI-based skill and career recommendations
+* User-friendly web interface
+* Personalized career guidance
+* Skill roadmap suggestions
+* Career paths based on student interests
+* Responsive and modern UI
+
+---
+
+## 🧠 How It Works
+
+1. The student enters their **interests and preferences**.
+2. The AI model analyzes the input.
+3. The system recommends **suitable career paths**.
+4. It also suggests **skills and learning roadmap** for that career.
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* CSS / Tailwind
+
+### Development Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+* Node.js
+
+---
+
+## 📂 Project Structure
+
+```
+SkillPath-AI-Based-Skill-Recommendation-System
+│
+├── public              # Static assets
+├── src                 # Application source code
+│
+├── package.json        # Project dependencies
+├── tsconfig.json       # TypeScript configuration
+├── next.config.ts      # Next.js configuration
+└── README.md           # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1️⃣ Clone the repository
 
-## Learn More
+```
+git clone https://github.com/danishnicho7/SkillPath-AI-Based-Skill-Recommendation-System-for-rural-Students.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 2️⃣ Navigate to the project folder
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+cd SkillPath-AI-Based-Skill-Recommendation-System-for-rural-Students
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3️⃣ Install dependencies
 
-## Deploy on Vercel
+```
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 4️⃣ Run the development server
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+npm run dev
+```
+
+### 5️⃣ Open the application
+
+```
+http://localhost:3000
+```
+
+---
+
+## 💡 Future Improvements
+
+* Integration of advanced AI models
+* Real-time career market analysis
+* Skill training recommendations
+* Multi-language support for rural students
+* Mobile application version
+
+---
+
+## 🎓 Target Users
+
+* Rural school students
+* College students seeking career guidance
+* Educational institutions
+* Career counselors
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Danish Nicho**
+
+GitHub:
+https://github.com/danishnicho7
+
+---
+
+⭐ If you found this project useful, please consider **starring the repository**.
